@@ -1,0 +1,211 @@
+cores{
+   color: #EF7B45;
+    color: #fff;
+    color: #2E4052;
+    color: #6E0D25;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #EF7B45;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #EF7B45;
+}
+
+header > h1{
+    color: #fff;
+}
+
+.nav-button{
+    margin-left: 20px;
+    border-radius: 8%;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background-color: #2E4052; 
+    transition: 0.4s;
+}
+
+
+
+
+.apresentacao-Produto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.descricao-Produto{
+    background-color: #2E4052;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 80px;
+    width: 900px;
+    height: 250px;
+    padding: 50px;
+    position: absolute;
+    right: 27%;
+}
+
+.descricao-Produto > h1{
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.descricao-Produto > p{
+    color: #fff;
+    width: 450px;
+    margin-bottom: 40px;
+
+}
+.descricao-Produto > input{
+    padding: 15px;
+    color: #fff;
+    background-color: #EF7B45;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #1a242eab;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.descricao-Produto > input:hover{
+    background-color: #fff;
+    color: #2E4052;
+    transition: 0.4s;
+}
+
+.imgPrincipal{
+    width: 712px;
+    height: 584px;
+    position: absolute;
+    top: 85px;
+    right: 30px;
+}
+
+
+
+.nossosBeneficios{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    position: relative;
+    top: 570px;
+    height: 460px;
+    padding: 80px;
+}
+
+#img2{
+    width: 320px;
+    height: 480px;
+}
+.lista{
+    background-color: #2E4052;
+    width: 500px;
+    height: 540px;
+    text-align: left;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    box-shadow: 5px 5px 8px #253b5052;
+}
+
+ul{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    list-style: none;
+}
+li{
+    color: #fff;
+    margin-bottom: 60px;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    background-color: #EF7B45;
+    margin-top: 1155px;
+}
+.informacoes{ 
+    display: flex;
+    flex-direction: column;
+    background-color: #2E4052;
+    position: absolute;
+    margin-top: 2315px;
+    padding: 20px;
+    width: 460px;
+    align-items: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(0.5%, -250%);
+
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    box-shadow: 5px 5px 5px #253b5052;
+}
+#nome, #email, #mensagem{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 45px;
+    background-color: #2E4052;
+    color: #fff;
+    border: none;
+    border-bottom: 1px #EF7B45 solid;
+}
+#mensagem{
+    height: 200px;
+    border: 1px #EF7B45 solid;
+    color: #fff;
+}
+.informacoes > h2{
+    color: #fff;
+    margin-bottom: 50px;
+}
+#botaoEnviar{
+    width: 350px;
+    height: 30px;
+
+    font-weight: bold;
+    border: none;
+    background-color: #EF7B45;
+    box-shadow: 5px 5px 5px #00000075;
+    color: #fff;
+    cursor: pointer;
+}
+::placeholder{
+    color: #EF7B45;
+}
+
+#botaoEnviar:hover{
+    background-color: #fff;
+    color: #2E4052;
+}
+
+
+footer{
+    text-align: center;
+    color: #2e40528a;
+    font-style: italic;
+    margin-bottom: 15px;
+}
